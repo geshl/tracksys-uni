@@ -42,12 +42,12 @@
 						<td class="text-center">
 							<span>
 								{#if row.connected}
-									<span class="badge variant-filled-success">
+									<span class="badge shadow-md border border-surface-400 rounded-md">
 										<i class="fa-solid fa-circle text-green-700"></i>
 										<span class="s text-green-900">Online</span>
 									</span>
 								{:else}
-									<span class="badge variant-filled-error">
+									<span class="badge shadow-md border border-surface-400 rounded-md">
 										<i class="fa-solid fa-circle text-red-700"></i>
 										<span class="s text-red-900">Offline</span>
 									</span>
