@@ -32,7 +32,10 @@
 					<tr>
 						<td>{i}</td>
 						<td><span class="italic underline text-blue-700">{row.id}</span></td>
-						<td>{row.name}</td>
+						<td>
+							<span>{row.name}</span>
+							<span class="badge rounded-md variant-filled-secondary" title="Test device"> T </span>
+						</td>
 						<td class="text-center">{row.added}</td>
 						<td class="text-center">
 							<span class="underline text-blue-700">{row.x},{row.y}</span>
